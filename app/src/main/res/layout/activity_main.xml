@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fjy.androiddemos.MainActivity">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/open_location_demo"
@@ -14,6 +13,15 @@
         android:layout_margin="30dp"
         android:gravity="center"
         android:background="@android:color/holo_green_light"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        />
+    <TextView
+        android:id="@+id/open_unzip_demo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="解压demo"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
