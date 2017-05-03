@@ -28,7 +28,7 @@ public class MyServer extends NanoHTTPD {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        return newFixedLengthResponse(get404page(uri));
+        return newFixedLengthResponse(Response.Status.NOT_FOUND, MIME_HTML,get404page(uri));
     }
     String get404page(String uri){
         StringBuilder builder = new StringBuilder();
