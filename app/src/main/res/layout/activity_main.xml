@@ -23,5 +23,24 @@
         android:gravity="center"
         android:background="@android:color/holo_green_light"
         />
+    <TextView
+        android:id="@+id/open_server_demo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="webserver"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/open_web_view"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="webview"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        />
 
 </LinearLayout>
